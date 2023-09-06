@@ -1,0 +1,19 @@
+{
+  "name": "react-studies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ismaels/react-studies.git",
+  "author": "Ismael Stahelin <84575+ismaels@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
