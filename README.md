@@ -14,4 +14,4 @@ This project uses Parcel Bundler (https://parceljs.org). In order to run it loca
 3. Open http://localhost:1234 on your browser and you're done.
 
 ### Screenshot
-![](docs/screenshot.png)
+<img src="docs/screenshot.png" width="70%">
