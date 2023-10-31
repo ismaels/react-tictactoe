@@ -14,13 +14,13 @@ const game = new TicTacToeGame();
 game.play(0, 0);
 game.play(1, 0);
 
-const judge = new TicTacTowJudge(game);
+const judge = new TicTacToeJudge(game);
 const hasWinner = judge.checkWinner();
 ====================
 */
 
 
-class TicTacTowJudge {
+class TicTacToeJudge {
     checkRows(board) {
         const res = board.map((row) => row.every((cell) => cell !== ' ' && cell === row[0]));
         return res.includes(true);
@@ -62,7 +62,7 @@ class TicTacToeGame {
             [' ', ' ', ' '],
             [' ', ' ', ' '],
         ];
-        this.judge = new TicTacTowJudge();
+        this.judge = new TicTacToeJudge();
         this.started = Date.now();
     }
 
